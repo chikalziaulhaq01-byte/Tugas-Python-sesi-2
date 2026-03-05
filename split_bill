@@ -1,0 +1,11 @@
+def split_bill():
+    print("\n=== Split Bill Nongkrong ===")
+    total_tagihan = float(input("Masukkan total tagihan: "))
+    jumlah_orang = int(input("Masukkan jumlah orang: "))
+    pajak = 0.10
+    
+    total_setelah_pajak = total_tagihan + (total_tagihan * pajak)
+    per_orang = total_setelah_pajak / jumlah_orang
+    
+    print("Total setelah pajak:", total_setelah_pajak)
+    print("Bayar per orang:", per_orang
