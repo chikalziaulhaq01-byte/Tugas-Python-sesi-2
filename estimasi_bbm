@@ -1,0 +1,11 @@
+def estimasi_bbm():
+    print("\n=== Estimasi BBM ===")
+    jarak = float(input("Masukkan jarak perjalanan (km): "))
+    konsumsi = 40  # 1 liter untuk 40 km
+    harga_per_liter = 13000
+    
+    liter_dibutuhkan = jarak / konsumsi
+    total_biaya = liter_dibutuhkan * harga_per_liter
+    
+    print("Liter dibutuhkan:", liter_dibutuhkan)
+    print("Total biaya bensin:", total_biaya)
