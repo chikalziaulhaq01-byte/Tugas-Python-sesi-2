@@ -1,0 +1,11 @@
+def penyusutan():
+    print("\n=== Penyusutan Nilai Barang ===")
+    harga_awal = float(input("Masukkan harga awal: "))
+    nilai_sisa = float(input("Masukkan nilai sisa: "))
+    umur = int(input("Masukkan umur ekonomis (tahun): "))
+    
+    penyusutan_per_tahun = (harga_awal - nilai_sisa) / umur
+    nilai_setelah_2_tahun = harga_awal - (2 * penyusutan_per_tahun)
+    
+    print("Penyusutan per tahun:", penyusutan_per_tahun)
+    print("Nilai setelah 2 tahun:", nilai_setelah_2_tahun)
